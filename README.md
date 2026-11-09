@@ -1,7 +1,7 @@
 # Example Excerpt to Submit for Translation and Evaluation
 
 ## About this Repo
-* This repo is provided as what an example submission may look like <b>with the exception of the `./translated_rust/` directory</b>. This directory is provided as an example to show what translated code might look like, but shouldn't be submitted.
+* This repo is provided as what an example submission may look like. Most importantly are the inclusions of a `CMakeLists.txt` file and the test vectors in [./test_vectors/](./test_vectors/).
 
 ## Preparation for Translation
 1. Be sure there is a `CMakeLists.txt` file present that adds an executable binary with the name `driver`. A minimalist example is provided [here](./test_case/CMakeLists.txt).
