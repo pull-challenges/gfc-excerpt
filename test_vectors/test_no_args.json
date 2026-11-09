@@ -1,0 +1,8 @@
+{
+  "argv": [],
+  "stderr": {
+    "pattern": "Usage: /workspace/gfc/(?:[^/\\r\\n]+/)*driver <number>\n",
+    "is_regex": true
+  },
+  "rc": 1
+}

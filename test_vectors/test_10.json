@@ -1,0 +1,6 @@
+{
+  "argv": ["10"],
+  "stdout": {
+    "pattern": "enc = 0\ndec = 10\n"
+  }
+}

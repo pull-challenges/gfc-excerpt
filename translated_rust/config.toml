@@ -1,0 +1,4 @@
+c_exposed_fns = [ "gfc_decrypt", "gfc_destroy", "gfc_encrypt", "gfc_init",]
+
+[bin]
+name = "driver"

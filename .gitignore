@@ -1,0 +1,4 @@
+build-ninja/
+.idea/
+translated_rust/target/
+test_case/build-dir/

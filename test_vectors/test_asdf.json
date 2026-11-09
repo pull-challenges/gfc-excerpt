@@ -1,0 +1,6 @@
+{
+  "argv": ["asdf"],
+  "stdout": {
+    "pattern": "enc = 12\ndec = 0\n"
+  }
+}
