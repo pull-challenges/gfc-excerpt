@@ -61,20 +61,6 @@ cmake .. && cmake --build .
 ./main
 ```
 
-### Python
-
-```
-pip install pygfc
-```
-
-```python
-from pygfc import Permutation
-# Permutation(range, rounds, seed)
-perm = Permutation(2 ** 16, 8, 42)
-assert set(perm) == set(range(2 ** 16))
-assert all(perm.inv(perm[i]) == i for i in range(2 ** 16))
-```
-
 ## Dependencies
 
 The Speck implementation is from [madmo/speck](https://github.com/madmo/speck) and is licensed under the ISC license (MIT-compatible).  
